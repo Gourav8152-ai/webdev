@@ -1,0 +1,21 @@
+div.btn{
+    background-color: red;
+    width: 50px;
+    padding: 10px;
+    font-size: medium;
+    font-style: italic;
+    box-shadow: grey 5px 5px 5px;
+    margin: 50px;
+    transition: 0.8s;
+}
+div.btn:hover{
+    background-color: cyan;
+    transform: translate(-5px,-5px);
+    transition: 0.3s;
+}
+div.btn:active{
+    background-color:black;
+    color: whitesmoke;
+    transform: translate(5px,5px);
+    transition: 0.1s;
+}

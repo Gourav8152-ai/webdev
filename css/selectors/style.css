@@ -1,0 +1,30 @@
+* {
+    font-style: italic;
+}
+#bold{
+    font-weight: bold;
+    font-style: normal;
+}
+div{
+    color: aqua;
+}
+p{
+    color: brown;
+}
+/* for class .{class-name}
+and for id #{id-name} */
+.big {
+    font-size: 25pt;
+}
+.medium{
+    font-size: 18pt;
+}
+.small{
+    font-size: 14pt;
+}
+input{
+    border: rgb(0, 0, 0);
+}
+input[disabled]{
+    width: 50px;
+}

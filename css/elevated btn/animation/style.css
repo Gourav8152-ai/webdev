@@ -1,0 +1,43 @@
+.container{
+    width: 400px;
+    height: 250px;
+    background-color: lightcyan;
+    margin-left: 70px;
+}
+.item{
+    margin: 12px;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    /* padding: 2px; */
+    border: solid black 1px;
+    background-color: lightseagreen;
+    display: inline-block;    
+
+    animation: bounce 5s 10;
+    animation-iteration-count: infinite;
+}
+    .one{
+        animation-timing-function: ease-in;
+    }
+     /* delay iteration-count direction fill-mode; */
+    .two{
+        animation-timing-function: ease-in-out;
+    }
+    .three{
+        animation-timing-function: ease-out;
+    }
+
+
+@keyframes bounce{
+    0% {
+
+    }
+    50% {
+        transform: translateY(170px)
+    }
+    100% {
+
+    }
+}

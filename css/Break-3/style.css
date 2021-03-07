@@ -1,0 +1,13 @@
+div{
+    background-color: red;
+    height: 40px;
+    border: 10px solid black;
+}
+div:hover{
+    background-color: blue;
+    border: 10px solid yellow;
+}
+div:active{
+    background-color: green;
+    border: 10px solid cyan;
+}

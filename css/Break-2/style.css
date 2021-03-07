@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 20px;
+}
+.one{
+    transform: scale(1.5,1.5);
+
+}
+.two{
+    transform: rotate(30deg);
+}
+.three{
+    transform: rotateX(180deg);
+}
+.four{
+    transform: rotateY(180deg);
+}
+.five{
+    transform: rotateZ(180deg);
+} 
+/* translate makes the box to move from it place.X axis looks after to move right to left whereas y axis looks after moving it top to bottom */
+.six{
+    transform: translate(50px,10px);
+}
+/* in skew x axis remain constant y axis moves in anti clockwise direction. Skew values are given in degree */
+.seven{
+    transform: skew(-45deg);
+}
+.eight{
+    transform: skewY(-45deg);
+}
